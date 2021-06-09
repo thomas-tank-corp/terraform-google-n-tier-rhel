@@ -8,7 +8,6 @@ terraform {
   backend "remote" {
     hostname = "app.terraform.io"
     organization = "tom-se-hashi"
-
     workspaces {
       name = "3tier-app-windows-dev"
     }
