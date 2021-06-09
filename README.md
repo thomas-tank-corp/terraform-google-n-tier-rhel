@@ -1,7 +1,7 @@
 # terraform-google-rhel-n-tier
 
 
-# example main.tf for 3 tier app 
+///// example main.tf for 3 tier app 
 
 
 terraform {
@@ -16,7 +16,7 @@ terraform {
 }
 
 
-# not all tiers need to be called. use the "web", "app" and "database" boolean arguments to set if the respective tier should be included
+///// not all tiers need to be called. use the "web", "app" and "database" boolean arguments to set if the respective tier should be included
 
 module "rhel-n-tier" {
   source  = "app.terraform.io/tom-se-hashi/rhel-n-tier/google"
