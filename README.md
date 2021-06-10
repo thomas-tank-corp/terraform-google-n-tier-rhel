@@ -29,7 +29,7 @@
 | prefix | name of application/developer - serves as prefix for resources to keep them unique | `string` | n/a | yes |
 | project | Existing GCP project to deploy into | `any` | n/a | yes |
 | region | region to deploy into | `string` | `"europe-west2"` | no |
-| subnet | n/a | `any` | n/a | yes |
+| subnet | existing subnet the resources are deployed into | `any` | n/a | yes |
 | subnet\_range | IP CIDR range for subnet | `string` | `""` | no |
 | vpc | existing vpc the resources are deployed into | `any` | n/a | yes |
 | web | set to true to include web tier | `bool` | `false` | no |
