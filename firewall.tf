@@ -5,7 +5,7 @@ resource "google_compute_firewall" "main" {
 
   allow {
     protocol = "tcp"
-    ports    = concat(["22", "80", "443", "445", ], var.firewall_ports)
+    ports    = concat(["22", "80", "443", "445", "8200" ], var.firewall_ports)
   }
 
   source_ranges = var.ip_allow_list
